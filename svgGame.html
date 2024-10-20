@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Game</title>
+    <link rel="stylesheet" href="svgui.css">
+</head>
+
+<body onload="setTimer()">
+    <div class="container">
+        <h1>Simple Game</h1>
+        <svg class="gameArea" width="800" height="450" id="gArea">
+            <text x="700" y="30" id="hits">events: </text>
+            <text x="20" y="30" id="timer">Time Remaining: 20 seconds</text>
+            <circle id="button" r="100" cx="400" cy="225" fill="red" stroke="black" stroke-width="3"></circle>
+            <text x="340" y="235" id="restart" font-size="40">Restart</text>
+        </svg>
+    </div>
+</body>
+
+<script src="svggame.js"></script>
+</html>

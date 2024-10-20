@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.gameArea {
+    border: medium solid gray;
+    background-color: white;
+}
+
+#gameObj {
+    stroke: black;
+    stroke-width: 5;
+    opacity: 0.5
+}
+
+#button {
+    display: none;
+}
+
+#restart {
+    display: none;
+}
+
+.red {
+    fill: red;
+}
+
+.purple {
+    fill: purple;
+}
+
+.blue {
+    fill: lightblue;
+}

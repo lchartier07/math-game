@@ -1,0 +1,20 @@
+#game {
+    display: none;
+}
+
+#start {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#log {
+    display: none;
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
